@@ -3,10 +3,12 @@
 	text-transform: uppercase;
 	display: inline-block;
 	background-color: #22b573;
+	font-size: 48pt;
+	padding-left: 40pt;
 }
 .container{
-	width: 1170px;
-	margin: 150px 10px 150px 150px;
+	width: 1300px;
+	margin:  40px auto;
 	background-color: #22b573;
 	height: 3000px;
 	border: 5px solid #006837;
@@ -20,8 +22,8 @@
 .abs{
 	/*position: absolute;*/
 	background-color: #fff;
-	width: 500px;
-	height:400px;
+	width: 658px;
+	height:492px;
 	position: fixed;
 	bottom: 0px;
 	left: 0px;
@@ -34,11 +36,35 @@
 	position: absolute;
 	height: 200px
 	width:100px;
-	z-index: 45;
+	z-index: 30;
+
 }
-.abs p{
+.text{
 	transform: rotateZ(45deg);
 	position: absolute;
 	top: 250px;
+	color: #FCEE21;
 	left: 100px;
+	font-size: 39pt;
+	/*height: 300px;
+	width: 300px;*/
+	/*background-color: #006837;*/
+}
+.text1 {
+	text-transform: uppercase;
+	color: #FCEE21;
+	font-size: 14pt;
+	padding-bottom: 20px;
+	padding-right: 20px; 
+
+}
+
+.before {
+	content:  "hi";
+	height: 300px;
+	width: 300px;
+	background-color: #006837;
+}
+.text11{
+	bottom: 0;
 }
