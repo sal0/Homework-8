@@ -5,12 +5,13 @@
 	background-color: #22b573;
 	font-size: 48pt;
 	padding-left: 40pt;
+	padding-top: 40pt;
 }
 .container{
-	width: 1300px;
+	width: 1486px;
+	height: 1000px;
 	margin:  40px auto;
 	background-color: #22b573;
-	height: 3000px;
 	border: 5px solid #006837;
 	position: relative;
 }
@@ -18,53 +19,63 @@
 	float: right;
 	padding-right: 50px;
 	padding-top: 50px; 
+	height: 660;
+	
 }
 .abs{
-	/*position: absolute;*/
+	
 	background-color: #fff;
+	position: fixed;
 	width: 658px;
 	height:492px;
-	position: fixed;
 	bottom: 0px;
 	left: 0px;
-	z-index: 40px;
+	z-index: 30px;
 
 
 }
 .box2{
 	background-color: #006837;
 	position: absolute;
-	height: 200px
-	width:100px;
-	z-index: 30;
+	height: 300px;
+	width:300px;
+	top: 72px;
+	left: 141px;
+	z-index: 40;
 
 }
 .text{
 	transform: rotateZ(45deg);
-	position: absolute;
-	top: 250px;
-	color: #FCEE21;
-	left: 100px;
-	font-size: 39pt;
-	/*height: 300px;
-	width: 300px;*/
-	/*background-color: #006837;*/
+    position: absolute;
+    top: 174px;
+    color: #FCEE21;
+    left: 21px;
+    font-size: 27pt;
+    z-index: 45;
+    text-transform: uppercase;
+
 }
 .text1 {
 	text-transform: uppercase;
 	color: #FCEE21;
 	font-size: 14pt;
-	padding-bottom: 20px;
-	padding-right: 20px; 
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
 
 }
 
-.before {
-	content:  "hi";
-	height: 300px;
-	width: 300px;
-	background-color: #006837;
+
 }
 .text11{
 	bottom: 0;
+}
+.read{
+	color: #39B54A;
+	position: absolute;
+	z-index: 45;
+	font-size: 14pt;
+	bottom: 10px;
+	right: 10px;
+	text-transform: uppercase;
 }
