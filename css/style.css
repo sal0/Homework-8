@@ -1,0 +1,44 @@
+.list{
+	color: #fff;
+	text-transform: uppercase;
+	display: inline-block;
+	background-color: #22b573;
+}
+.container{
+	width: 1170px;
+	margin: 150px 10px 150px 150px;
+	background-color: #22b573;
+	height: 3000px;
+	border: 5px solid #006837;
+	position: relative;
+}
+.img{
+	float: right;
+	padding-right: 50px;
+	padding-top: 50px; 
+}
+.abs{
+	/*position: absolute;*/
+	background-color: #fff;
+	width: 500px;
+	height:400px;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	z-index: 40px;
+
+
+}
+.box2{
+	background-color: #006837;
+	position: absolute;
+	height: 200px
+	width:100px;
+	z-index: 45;
+}
+.abs p{
+	transform: rotateZ(45deg);
+	position: absolute;
+	top: 250px;
+	left: 100px;
+}
